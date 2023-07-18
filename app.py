@@ -51,6 +51,7 @@ def create_answers_section(df):
 
 def main():
     df_raw = load_data()
+    
     create_dataframe_section(df_raw)
     create_answers_section(df_raw)
 
